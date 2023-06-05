@@ -1,0 +1,29 @@
+.block-info {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  .block-info_description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    line-height: 1.35;
+    color: #8c8783;
+  }
+
+  .info-label {
+    font-weight: 300;
+    font-size: 43px;
+    font-family: 'Cormorant SC', serif !important;
+  }
+
+  .info-description {
+    font-size: 17px;
+    font-weight: 600;
+    white-space: break-spaces
+  }
+}
+
+
+

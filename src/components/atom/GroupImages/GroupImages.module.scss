@@ -1,0 +1,11 @@
+.sm-img {
+  width: 359px;
+  transition: .5s;
+  height: 260px;
+}
+
+.sm-img:hover {
+  box-shadow: 0 2px 20px 2px rgba(0, 0, 0, .45);
+  transform: scale(1.1);
+  cursor: zoom-in;
+}

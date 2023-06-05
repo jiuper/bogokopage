@@ -1,0 +1,41 @@
+.sm-table {
+
+  background: #231f20;
+
+  .sm-table-block {
+    width: 1519px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .sm-table-caption {
+      line-height: 50px;
+      color: #ffffff;
+      text-align: center;
+      max-width: 1000px;
+      font-size: 46px;
+      font-family: 'Cormorant SC', serif !important;
+    }
+
+    .sm-table-items {
+      display: flex;
+      width: 80%;
+
+      .sm-items-left, .sm-items-right {
+
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 auto;
+      }
+
+      .sm-items-right {
+        border: 1px solid #cabeb9;
+        flex: 1 0 auto;
+        width: 600px;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  gap: 30px;
+  height: 30px;
+
+  .menu-point {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+  }
+
+  .menu-point:hover {
+    color: #ffd700;
+
+  }
+
+}
+

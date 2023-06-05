@@ -1,0 +1,41 @@
+.item-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 40px;
+
+  .ds-caption {
+    color: #ffffff;
+    font-size: 46px;
+    font-family: 'Cormorant SC', serif !important;
+    line-height: 1.00;
+    font-weight: 400;
+  }
+
+  .ds-desc {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  .ds-btn {
+    border: 3px solid #f8f6ee;
+    color: #f8f6ee;
+    width: 310px;
+    background: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .ds-btn:hover {
+    background: #f8f6ee;
+    color: #231f20;
+    transition: .5s;
+  }
+}
+

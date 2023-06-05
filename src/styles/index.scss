@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Montserrat&display=swap');
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container{
+  max-width: 1540px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1 1 auto;
+}
+
+.footer{
+  flex: 0 1 auto;
+}
+

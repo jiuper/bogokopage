@@ -1,0 +1,17 @@
+.sm-label {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.55);
+
+  > h1 {
+    padding: 24px 0 38px 0;
+    letter-spacing: .5px;
+    color: #fff;
+    font-size: 72px;
+    line-height: 1.17;
+    font-weight: 600;
+  }
+}

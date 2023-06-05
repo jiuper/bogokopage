@@ -1,0 +1,71 @@
+.simultaneously-img {
+  background-image: url("../../public/IMG-e130ba6606507a38.jpg");
+}
+
+.salonmassage-img {
+  background-image: url("../../public/IMG-e130ba6606507a38.jpg");
+}
+
+.salonmanicure-img {
+  background-image: url("../../public/IMG-e130ba6606507a38.jpg");
+}
+
+.saloneyes-img {
+  background-image: url("../../public/IMG-e130ba6606507a38.jpg");
+}
+
+.salondepilation-img {
+  background-image: url("../../public/IMG-e130ba6606507a38.jpg");
+}
+
+.salonsmetologist-img {
+  background-image: url("../../public/IMG-e130ba6606507a38.jpg");
+}
+
+.salonermanent-img {
+  background-image: url("../../public/IMG-e130ba6606507a38.jpg");
+}
+
+.salonheir-img {
+  background-image: url("../../public/IMG-e130ba6606507a38.jpg");
+}
+
+.sm-caption {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 700ms;
+  width: 100%;
+  min-height: 775px;
+  height: 100vh;
+
+}
+
+.sm-btn {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+
+  > a {
+    padding: 20px 60px;
+    border: 3px solid #cabeb9;
+    border-radius: 50px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  > a:hover {
+    background: #cabeb9;
+    border: 3px solid #cabeb9;
+    color: #FFF;
+    transition: .5s;
+
+  }
+
+}
+
+
+

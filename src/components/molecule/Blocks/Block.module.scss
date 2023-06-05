@@ -1,0 +1,245 @@
+//general classes
+
+.width-container {
+  max-width: 1288px;
+  margin: 60px auto;
+}
+
+//Block - 1
+.caption-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 775px;
+  height: 100vh;
+  background-attachment: scroll;
+  background-image: url("../../../public/Rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-size: 56px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+//Block - 2
+
+.info-caption {
+  margin-bottom: 70px;
+  font-size: 46px;
+  font-family: 'Cormorant SC', serif !important;
+  font-weight: 400;
+}
+
+.info-line {
+  width: 40%;
+  color: #cabeb9;
+}
+
+.info-items {
+  display: grid;
+  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+
+//Block - 3
+
+.about-me-bgr {
+  background: linear-gradient(to bottom, rgba(35, 31, 32, 0.8), rgba(35, 31, 32, 0.8));
+  padding: 40px 0;
+}
+
+.about-me {
+  display: flex;
+  gap: 40px;
+  margin: 60px auto;
+  color: #fff;
+
+  .am-img > img {
+    width: 460px;
+    height: 560px;
+    border-radius: 25px;
+  }
+
+  .am-caption {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    > h1 {
+      font-size: 46px;
+      font-family: 'Cormorant SC', serif !important;
+      font-weight: 400;
+    }
+
+    > span {
+      font-weight: 600;
+
+    }
+
+    .caption_line {
+      max-width: 50px;
+      width: 100%;
+      height: 3px;
+      background-color: #666;
+    }
+
+  }
+
+  .am-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+
+    > p {
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+}
+
+//Block - 4
+
+.direction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+
+  .drc-caption {
+    > h1 {
+      font-size: 46px;
+      font-family: 'Cormorant SC', serif !important;
+      font-weight: 400;
+    }
+
+  }
+
+  .drc-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+}
+
+//Block - 5
+
+.our-masters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+
+  .or-caption {
+    > h1 {
+      font-size: 46px;
+      font-family: 'Cormorant SC', serif !important;
+      font-weight: 400;
+    }
+
+  }
+
+  .list-images {
+
+    img {
+      width: 327px;
+      height: 327px;
+      border-radius: 50%;
+    }
+  }
+
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #8c8683;
+    font-size: 17px;
+    margin: 20px 0;
+
+
+    .title-bold {
+      font-weight: bold;
+      color: black;
+    }
+  }
+}
+
+//Block - 6
+
+.contact {
+  display: flex;
+
+
+  .cn-left {
+    flex-basis: 50%;
+    width: 100%;
+    height: 670px;
+  }
+
+  .cn-right {
+    flex-basis: 50%;
+    background: #231f20;
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    gap: 30px;
+    color: white;
+    font-size: 17px;
+    line-height: 1.55;
+
+    .t-caption {
+      color: #ffffff;
+      font-size: 46px;
+      font-family: 'Cormorant SC', serif !important;
+      line-height: 46px;
+
+    }
+
+    .t-block {
+      display: flex;
+      align-items: center;
+      gap: 30px
+    }
+
+    .t-oclock-span {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .social {
+    display: flex;
+    gap: 20px;
+
+    > a > img {
+      width: 62px;
+      height: 62px;
+    }
+  }
+}
+
+//Block - 7
+
+.our-advantages {
+
+  .info-caption {
+    width: 800px;
+  }
+}
+
+
+
+
+
+
+
